@@ -1,22 +1,48 @@
-<!DOCTYPE html>
-<html>
-    <head>
-		<link rel="stylesheet" href="SarahsWebsiteCSS.css">
-        <meta charset="utf-8">
-        <title>IOT</title>
-		<style>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="SarahsWebsiteCSS.css">
+    <title>Research</title>
+	<style>
 		#IOT{
 		text-align: center;
 		}
+		#codeOutput{
+		text-align:center;
+		}
+		#video{
+		text-align:center;
+		}
 		</style>
-    </head>
-    <body>
+  </head>
+  <body>
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Sarah's Website</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link" href="SarahsWebsite.html">Home</a>
+      <a class="nav-item nav-link" href="QuickFacts.html">Quick Facts</a>
+      <a class="nav-item nav-link active" href="IOTResearch.html">Research <span class="sr-only">(current)</span></a>
+    </div>
+  </div>
+</nav>
+<br>
 
+    <div class = "container">
     <h1>Internet of Things Research</h1>
 	<p id= "IOT">
-    <img src = "IOT.jpg" alt = "Impact of Internet of Things" width = "415">
-	<img src = "IOT3.jpg" alt = "IOT picture" width = 375>
-	<img src = "IOT2.jpg" alt = "Interconnectedness of everything with IOT" width= 375>
+    <img src = "IOT.jpg" alt = "Impact of Internet of Things" width = "365">
+	<img src = "IOT3.jpg" alt = "IOT picture" width = 325>
+	<img src = "IOT2.jpg" alt = "Interconnectedness of everything with IOT" width= 325>
 	</p>
     <h2>SensorTile Research Team</h2>
     <p>
@@ -28,8 +54,36 @@
 	to lock it. These motions were done by both rotating the key to the right and to the left. With this device 
 	a contactless, gesture recognizing digital key can be created for convenience and longevity.
 	</p>
-	
+	<div class="container">
+  <div class="row">
+    <div class="col">
+      <p>
+	  <p id="video">
+	Here is the video where I train the SensorTile to recognize motions and then do some test motions.
+	</p>
+	<div style="position:relative; padding-bottom:56.25%; padding-top:30px; height:0; overflow:hidden;">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/TYbe3jmwtHQ" frameborder="0" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
+	</div>
+	  </p>
+    </div>
+    <div class="col">
+      <p>
+	  <p id="codeOutput">
+	  Here is the output of code that corresponds with the video.
+	  <img src= "96P1.PNG" alt = "Code output" width = "400" align= "center">
+	  <img src= "96P2.PNG" alt = "Code output" width = "400">
+	   </p>
+	  </p>
+    </div>
+  </div>
+  </div>
 	<h3> </h3>
-    
-    </body>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
 </html>
